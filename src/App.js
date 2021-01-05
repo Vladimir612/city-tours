@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.sass'
-import { Navbar } from './components'
+import { Navbar, TourList } from './components'
 
 const App = () => {
   return (
-    <>
+    <main>
       <Navbar />
-    </>
+      <TourList />
+    </main>
   )
 }
 
